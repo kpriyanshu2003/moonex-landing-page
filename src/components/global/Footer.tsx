@@ -20,7 +20,7 @@ function Footer() {
   }, [setHashFunction]);
 
   return (
-    <div className="flex justify-around text-white font-raleway font-extrabold">
+    <div className="flex justify-around   font-raleway font-extrabold">
       <div>
         <img src={Logo} alt="logo" />
       </div>

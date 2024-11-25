@@ -18,7 +18,7 @@ function NavBar() {
   }, [setHashFunction]);
 
   return (
-    <div className="text-white flex items-center justify-around">
+    <div className="  flex items-center justify-around bg-transparent absolute top-5 w-full z-10">
       <div>
         <img src={Logo} />
       </div>
@@ -72,7 +72,7 @@ function NavBar() {
       <div className="font-raleway font-extrabold">
         <Button
           variant="default"
-          className="font-raleway font-extrabold px-6 bg-gradient-to-r hover:bg-gradient-to-l transition-all duration-300 from-primary to-secondary"
+          className="font-raleway font-extrabold bg-gradient-to-r hover:bg-gradient-to-l transition-all duration-300 from-primary to-secondary"
           onClick={() => console.log("Connect Wallet")}
         >
           Connect Wallet
