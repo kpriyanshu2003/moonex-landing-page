@@ -1,6 +1,7 @@
 import HeroSection from "../components/Home/HeroSection";
 import AboutUs from "../components/Home/AboutUs";
 import BG from "../assets/hero-bg.svg";
+import FAQ from "../components/Home/FAQ";
 
 function Home() {
   return (
@@ -9,6 +10,7 @@ function Home() {
       <div className="pt-56 z-10">
         <HeroSection />
         <AboutUs />
+        <FAQ />
       </div>
     </div>
   );
