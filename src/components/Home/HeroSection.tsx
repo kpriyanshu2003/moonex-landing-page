@@ -2,15 +2,15 @@ import { Button } from "../ui/button";
 
 function HeroSection() {
   return (
-    <div className="h-screen relative">
-      <div className="w-7/12 absolute top-48 left-32">
+    <div className="h-dvh relative pt-72 md:pt-0 md:mt-56">
+      <div className="w-7/12 absolute md:top-48 left-10 md:left-32">
         <div className="font-fira">
-          <span className="font-extrabold text-7xl">
+          <span className="font-extrabold text-3xl md:text-7xl">
             Trusted Multi-Chain <span className="text-primary">DEX</span>{" "}
             Platform
           </span>
           <br />
-          <span className="text-[#9E9E9E] text-2xl">
+          <span className="text-[#9E9E9E] md:text-2xl">
             Trade, earn, and own crypto on the all-in-one multi-chain DEX
           </span>
         </div>

@@ -20,11 +20,12 @@ function Footer() {
   }, [setHashFunction]);
 
   return (
-    <div className="flex justify-around   font-raleway font-extrabold">
-      <div>
+    <div className="flex flex-col md:flex-row justify-center md:justify-around font-raleway font-bold md:font-extrabold text-sm md:text-base mb-10">
+      <div className="grid place-items-center">
         <img src={Logo} alt="logo" />
       </div>
-      <div className="flex items-center gap-16">
+
+      <div className="flex items-center gap-5 md:gap-16 whitespace-nowrap justify-center md:justify-normal">
         <a
           href="#about"
           className={classNames(
@@ -62,8 +63,8 @@ function Footer() {
           Contact Us
         </a>
       </div>
-      <div className="text-2xl">
-        <div className="my-4">
+      <div className="md:text-2xl">
+        <div className="my-4 text-center">
           Contact <span className="text-primary">Us</span>
         </div>
         <div className="flex items-center gap-6 justify-center">

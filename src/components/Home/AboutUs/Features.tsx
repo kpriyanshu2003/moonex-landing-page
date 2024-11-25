@@ -176,7 +176,7 @@ function Features() {
       <div className="font-fira text-4xl font-extrabold text-center">
         Our <span className="text-primary">Features</span>
       </div>
-      <div className="grid grid-cols-4 grid-rows-1 gap-10 mt-10">
+      <div className="grid grid-rows-4 md:grid-cols-4 grid-cols-1 md:grid-rows-1 gap-5 md:gap-10 mt-10">
         {data.map((i) => (
           <Container
             key={i.title}

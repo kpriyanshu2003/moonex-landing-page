@@ -3,7 +3,7 @@ import WhyMoonEX from "./WhyMoonEX";
 
 function index() {
   return (
-    <div className="px-48">
+    <div className="md:px-48 px-12">
       <WhyMoonEX />
       <Features />
     </div>

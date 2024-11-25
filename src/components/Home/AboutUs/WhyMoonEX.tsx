@@ -13,13 +13,13 @@ import UniSwap from "../../../assets/uniswap.svg";
 function WhyMoonEX() {
   return (
     <>
-      <div className="font-fira text-4xl font-extrabold">
+      <div className="font-fira text-2xl md:text-4xl font-extrabold">
         Why <span className="text-primary">MoonEX</span> ?
       </div>
       <Table className="rounded-lg overflow-hidden bg-white/5 my-5">
         <TableHeader>
           <TableRow>
-            <TableHead className="text-white font-conthrax text-primary text-xl text-center py-4">
+            <TableHead className="text-white font-conthrax text-primary md:text-xl text-center py-4">
               Comparison
             </TableHead>
             <TableHead className="text-white font-conthrax text-primary text-xl text-center py-4">
@@ -44,7 +44,7 @@ function WhyMoonEX() {
             { point: "5 . Point no five", moonEX: true, uniswap: false },
           ].map((item, index) => (
             <TableRow key={index}>
-              <TableCell className="font-fira pl-10 text-[#F0F0F0]/70 border-t border-b border-[#D9D9D9]/10">
+              <TableCell className="font-fira pl-5 md:pl-10 text-[#F0F0F0]/70 border-t border-b border-[#D9D9D9]/10">
                 {item.point}
               </TableCell>
               <TableCell className="border-t border-b border-l border-r border-[#D9D9D9]/10">
