@@ -1,8 +1,17 @@
 import { Button } from "../ui/button";
+import GradientCircle from "../../assets/gradient-blur.svg";
 
 function HeroSection() {
   return (
     <div className="h-dvh relative pt-72 md:pt-0 md:mt-56">
+      <img
+        src={GradientCircle}
+        className="opacity-15 absolute -z-10 -top-1/2 translate-y-10 -left-72 hidden md:block"
+      />
+      <img
+        src={GradientCircle}
+        className="opacity-15 absolute -z-10 bottom-0 md:-translate-x-80 -right-1/2"
+      />
       <div className="w-7/12 absolute md:top-48 left-10 md:left-32">
         <div className="font-fira">
           <span className="font-extrabold text-3xl md:text-7xl">

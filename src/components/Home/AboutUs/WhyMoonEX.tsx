@@ -9,11 +9,16 @@ import {
 } from "../../ui/table";
 import MoonEX from "../../../assets/moon-text.svg";
 import UniSwap from "../../../assets/uniswap.svg";
+import GradientCircle from "../../../assets/gradient-blur.svg";
 
 function WhyMoonEX() {
   return (
-    <>
-      <div className="font-fira text-2xl md:text-4xl font-extrabold">
+    <div className="relative">
+      <img
+        src={GradientCircle}
+        className="opacity-15 absolute -z-10 top-1/2 md:-top-1/2 -translate-y-1/2 md:translate-y-32"
+      />
+      <div className="font-fira text-2xl md:text-4xl font-extrabold" id="about">
         Why <span className="text-primary">MoonEX</span> ?
       </div>
       <Table className="rounded-lg overflow-hidden bg-white/5 my-5">
@@ -44,10 +49,10 @@ function WhyMoonEX() {
             { point: "5 . Point no five", moonEX: true, uniswap: false },
           ].map((item, index) => (
             <TableRow key={index}>
-              <TableCell className="font-fira pl-5 md:pl-10 text-[#F0F0F0]/70 border-t border-b border-[#D9D9D9]/10">
+              <TableCell className="font-fira pl-5 md:pl-10 text-[#F0F0F0]/70 border-t border-b border-[#D9D9D9]/10 h-20">
                 {item.point}
               </TableCell>
-              <TableCell className="border-t border-b border-l border-r border-[#D9D9D9]/10">
+              <TableCell className="border-t border-b border-l border-r border-[#D9D9D9]/10 h-20">
                 <div className="flex items-center justify-center">
                   {item.moonEX ? (
                     <Check className="text-[#B2FFAC]" />
@@ -56,7 +61,7 @@ function WhyMoonEX() {
                   )}
                 </div>
               </TableCell>
-              <TableCell className="border-t border-b border-[#D9D9D9]/10">
+              <TableCell className="border-t border-b border-[#D9D9D9]/10  h-20">
                 <div className="flex items-center justify-center">
                   {item.uniswap ? (
                     <Check className="text-[#B2FFAC]" />
@@ -69,7 +74,7 @@ function WhyMoonEX() {
           ))}
         </TableBody>
       </Table>
-    </>
+    </div>
   );
 }
 

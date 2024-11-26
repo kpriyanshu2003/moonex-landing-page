@@ -2,11 +2,18 @@ import HeroSection from "../components/Home/HeroSection";
 import AboutUs from "../components/Home/AboutUs";
 import BG from "../assets/hero-bg.svg";
 import FAQ from "../components/Home/FAQ";
+import GradientCircle from "../assets/gradient-blur.svg";
 
 function Home() {
   return (
-    <div className=" overflow-hidden relative">
-      <img src={BG} alt="" className="absolute left-5 -z-10 md:w-screen" />
+    <div className=" overflow-hidden">
+      <div className="relative">
+        <img src={BG} className="absolute -z-10 md:w-screen hidden md:block" />
+        <img
+          src={GradientCircle}
+          className="opacity-15 absolute -z-10 md:-top-96 -translate-y-10 -left-72"
+        />
+      </div>
       <div className="z-10">
         <HeroSection />
         <AboutUs />
