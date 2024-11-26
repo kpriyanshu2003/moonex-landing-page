@@ -22,7 +22,7 @@ function FAQ() {
       <div className="md:px-96 px-12">
         <div className="bg-white/5 border-white/5 border px-10 md:px-20 py-5 md:py-10 rounded-lg my-20">
           <div
-            className="font-fira text-4xl font-extrabold text-primary text-center mb-8"
+            className="font-fira text-4xl font-extrabold text-primary text-center"
             id="faq"
           >
             FAQs

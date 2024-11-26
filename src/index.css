@@ -69,3 +69,9 @@
 .container {
   clip-path: polygon(0 5%, 100% 0%, 100% 97%, 0% 100%);
 }
+
+@media screen and (max-width: 746px) {
+  .container {
+    clip-path: polygon(0 4%, 100% 0%, 100% 97%, 0% 100%);
+  }
+}
