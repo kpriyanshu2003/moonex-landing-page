@@ -3,6 +3,7 @@ import AboutUs from "../components/Home/AboutUs";
 import BG from "../assets/hero-bg.svg";
 import FAQ from "../components/Home/FAQ";
 import GradientCircle from "../assets/gradient-blur.svg";
+import RoadMap from "../components/Home/RoadMap";
 
 function Home() {
   return (
@@ -11,12 +12,14 @@ function Home() {
         <img src={BG} className="absolute -z-10 md:w-screen hidden md:block" />
         <img
           src={GradientCircle}
-          className="opacity-15 absolute -z-10 md:-top-96 -translate-y-10 -left-72"
+          className="opacity-10 absolute -z-10 md:-top-96 -translate-y-10 -left-72"
         />
       </div>
+
       <div className="z-10">
         <HeroSection />
         <AboutUs />
+        <RoadMap />
         <FAQ />
       </div>
     </div>

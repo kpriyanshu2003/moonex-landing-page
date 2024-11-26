@@ -37,6 +37,7 @@
     --radius: 0.5rem;
   }
 }
+
 @layer base {
   * {
     scroll-behavior: smooth;
@@ -63,4 +64,8 @@
   font-family: "conthrax", serif;
   font-optical-sizing: auto;
   font-style: normal;
+}
+
+.container {
+  clip-path: polygon(0 5%, 100% 0%, 100% 97%, 0% 100%);
 }

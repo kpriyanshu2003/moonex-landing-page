@@ -12,11 +12,11 @@ function FAQ() {
       <div className="relative">
         <img
           src={GradientCircle}
-          className="opacity-10 absolute -z-10 -top-1/2 -translate-y-10 md:-translate-y-1/4 right-0 translate-x-1/2"
+          className="opacity-10 absolute -z-10 -top-1/2 -translate-y-10 md:-translate-y-2/4 -right-20 translate-x-1/2"
         />
         <img
           src={GradientCircle}
-          className="opacity-10 absolute -z-10 top-1/2 translate-y-1/4 md:-translate-y-1/4 left-10 -translate-x-1/2"
+          className="opacity-10 absolute -z-10 top-1/2 translate-y-1/4 md:-translate-y-1/4 -left-10 -translate-x-1/2"
         />
       </div>
       <div className="md:px-96 px-12">

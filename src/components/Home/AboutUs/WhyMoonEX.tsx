@@ -16,7 +16,7 @@ function WhyMoonEX() {
     <div className="relative">
       <img
         src={GradientCircle}
-        className="opacity-15 absolute -z-10 top-1/2 md:-top-1/2 -translate-y-1/2 md:translate-y-32"
+        className="opacity-10 absolute -z-10 top-1/2 md:-top-1/2 -translate-y-1/2 md:translate-y-32"
       />
       <div className="font-fira text-2xl md:text-4xl font-extrabold" id="about">
         Why <span className="text-primary">MoonEX</span> ?
