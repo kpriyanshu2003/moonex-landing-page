@@ -12,15 +12,15 @@ function FAQ() {
       <div className="relative">
         <img
           src={GradientCircle}
-          className="opacity-10 absolute -z-10 -top-1/2 -translate-y-10 md:-translate-y-2/4 -right-20 translate-x-1/2"
+          className="opacity-10 absolute -z-10 -top-1/2 -translate-y-10 lg:-translate-y-2/4 -right-20 translate-x-1/2"
         />
         <img
           src={GradientCircle}
-          className="opacity-10 absolute -z-10 top-1/2 translate-y-1/4 md:-translate-y-1/4 -left-10 -translate-x-1/2"
+          className="opacity-10 absolute -z-10 top-1/2 translate-y-1/4 lg:-translate-y-1/4 -left-10 -translate-x-1/2"
         />
       </div>
-      <div className="md:px-96 px-12">
-        <div className="bg-white/5 border-white/5 border px-10 md:px-20 py-5 md:py-10 rounded-lg my-20">
+      <div className="lg:px-96 px-12">
+        <div className="bg-white/5 border-white/5 border px-10 lg:px-20 py-5 lg:py-10 rounded-lg my-20">
           <div
             className="font-fira text-4xl font-extrabold text-primary text-center"
             id="faq"
@@ -33,7 +33,7 @@ function FAQ() {
                 value="item-1"
                 className="border-b border-t border-white/5"
               >
-                <AccordionTrigger className="text-sm md:text-base text-left">
+                <AccordionTrigger className="text-sm lg:text-base text-left">
                   How do I get a Referral Code?
                 </AccordionTrigger>
                 <AccordionContent className="text-[#BAB8B8]/25">
@@ -46,7 +46,7 @@ function FAQ() {
                 value="item-2"
                 className="border-b border-t border-white/5"
               >
-                <AccordionTrigger className="text-sm md:text-base text-left">
+                <AccordionTrigger className="text-sm lg:text-base text-left">
                   Do I get rewarded in tokens or ETH when I refer buyers?
                 </AccordionTrigger>
                 <AccordionContent className="text-[#BAB8B8]/25">
@@ -58,7 +58,7 @@ function FAQ() {
                 value="item-3"
                 className="border-b border-t border-white/5"
               >
-                <AccordionTrigger className="text-sm md:text-base text-left">
+                <AccordionTrigger className="text-sm lg:text-base text-left">
                   How do I get a Referral Code?
                 </AccordionTrigger>
                 <AccordionContent className="text-[#BAB8B8]/25">

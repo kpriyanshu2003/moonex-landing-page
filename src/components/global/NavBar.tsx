@@ -21,12 +21,12 @@ function NavBar() {
 
   return (
     <div>
-      <div className="flex items-center justify-between md:justify-around bg-transparent absolute top-5 w-full z-10 px-5 md:px-0">
+      <div className="flex items-center justify-between lg:justify-around bg-transparent absolute top-5 w-full z-10 px-5 lg:px-0">
         <div>
           <img src={Logo} />
         </div>
 
-        <div className="hidden md:flex items-center gap-20 font-raleway font-extrabold">
+        <div className="hidden lg:flex items-center gap-20 font-raleway font-extrabold">
           <a
             className={classNames(
               "hover:text-primary transition-color duration-300",
@@ -74,7 +74,7 @@ function NavBar() {
           </a>
         </div>
 
-        <div className="hidden md:block font-raleway font-extrabold">
+        <div className="hidden lg:block font-raleway font-extrabold">
           <Button
             variant="default"
             className="font-raleway font-extrabold bg-gradient-to-r hover:bg-gradient-to-l transition-all duration-300 from-primary to-secondary"
@@ -84,13 +84,13 @@ function NavBar() {
           </Button>
         </div>
 
-        <Menu className="md:hidden" onClick={() => setNav(true)} />
+        <Menu className="lg:hidden" onClick={() => setNav(true)} />
       </div>
 
       {/* Mobile Navigation */}
       <div
         className={classNames(
-          "md:hidden absolute h-dvh w-dvw bg-black/75 z-20 top-0 left-0 p-10 transition-all duration-300",
+          "lg:hidden absolute h-dvh w-dvw bg-black/75 z-20 top-0 left-0 p-10 transition-all duration-300",
           { "-translate-y-full": !nav }
         )}
       >

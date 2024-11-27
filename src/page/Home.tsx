@@ -9,10 +9,10 @@ function Home() {
   return (
     <div className=" overflow-hidden">
       <div className="relative">
-        <img src={BG} className="absolute -z-10 w-full hidden md:block" />
+        <img src={BG} className="absolute -z-10 w-full hidden lg:block" />
         <img
           src={GradientCircle}
-          className="opacity-10 absolute -z-10 md:-top-96 -translate-y-10 -left-72"
+          className="opacity-10 absolute -z-10 lg:-top-96 -translate-y-10 -left-72"
         />
       </div>
 

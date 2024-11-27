@@ -4,7 +4,7 @@ import GradientCircle from "../../assets/gradient-blur.svg";
 
 function RoadMap() {
   return (
-    <div className="my-20 bg-[#050E17] pt-32 container relative">
+    <div className="my-20 bg-[#050E17] pt-32 container relative w-screen overflow-hidden">
       <img
         src={GradientCircle}
         className="opacity-10 absolute -z-10 top-1/2 -translate-y-3/4 -left-1/2 translate-x-1/4"
@@ -20,17 +20,17 @@ function RoadMap() {
         Project <span className="text-primary">Roadmap</span>
       </div>
 
-      <div className="md:px-56 md:pb-32 pt-20 px-10">
-        <div className="text-center md:text-right py-10">
+      <div className="lg:px-56 lg:pb-32 pt-20 px-10">
+        <div className="text-center lg:text-right py-10">
           <span className="text-[#B2FFAC] font-fira text-3xl font-extrabold ">
             Phase One
           </span>
           <br />
-          <span className="md:hidden text-lg">
+          <span className="lg:hidden text-lg">
             Point number one is completed and seven words
           </span>
         </div>
-        <div className="flex items-center relative md:h-56 h-40">
+        <div className="flex items-center relative lg:h-56 h-40">
           <div className="border-t-2 border-dashed border-white/20 w-10/12 relative">
             <div className="absolute flex justify-between w-full -translate-y-1/2 h-56 items-center">
               {Array.from({ length: 4 }).map((_, i) => (
@@ -41,7 +41,7 @@ function RoadMap() {
                   <CheckCheck className="rounded-full bg-white/10 p-1.5 w-8 h-8" />
                   <span
                     className={classNames(
-                      "text-white/50 my-2 w-40 absolute -translate-x-1/2 hidden md:block",
+                      "text-white/50 my-2 w-40 absolute -translate-x-1/2 hidden lg:block",
                       { "-translate-y-32": i % 2 === 0 }
                     )}
                   >
@@ -52,16 +52,16 @@ function RoadMap() {
             </div>
           </div>
           <div className="border-t-2 border-white/20 w-2/12"></div>
-          <div className="absolute -bottom-1/2 -translate-y-1/6 md:-translate-y-1/2">
+          <div className="absolute -bottom-1/2 -translate-y-1/6 lg:-translate-y-1/2">
             <span className="text-[#EDD955] font-fira text-3xl font-extrabold">
               Phase Two
             </span>
             <br />
-            <span className="md:hidden text-lg">
+            <span className="lg:hidden text-lg">
               Point number one is completed and seven words
             </span>
           </div>
-          <div className="absolute right-0 translate-y-1/2 border-r-2 border-white/20 h-56 md:h-96 grid place-items-center">
+          <div className="absolute right-0 translate-y-1/2 border-r-2 border-white/20 h-56 lg:h-96 grid place-items-center">
             <div className="translate-x-1/2 bg-[#050E17] p-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -83,14 +83,14 @@ function RoadMap() {
           </div>
         </div>
 
-        <div className="flex items-center relative h-56 mt-8 md:mt-40">
+        <div className="flex items-center relative h-56 mt-8 lg:mt-40">
           <div className="border-t-2 border-white/20 w-1/12"></div>
-          <div className="absolute -bottom-1/2 -translate-y-16 md:-translate-y-1/2 w-64 md:w-auto right-0">
+          <div className="absolute -bottom-1/2 -translate-y-16 lg:-translate-y-1/2 w-64 lg:w-auto right-0">
             <span className="text-[#ED5555] font-fira text-3xl font-extrabold ">
               Phase Three
             </span>
             <br />
-            <span className="md:hidden text-lg">
+            <span className="lg:hidden text-lg">
               Point number one is completed and seven words
             </span>
           </div>
@@ -104,7 +104,7 @@ function RoadMap() {
                   <CheckCheck className="rounded-full bg-white/10 p-1.5 w-8 h-8" />
                   <span
                     className={classNames(
-                      "text-white/50 my-2 w-40 absolute -translate-x-1/2 hidden md:block",
+                      "text-white/50 my-2 w-40 absolute -translate-x-1/2 hidden lg:block",
                       { "-translate-y-32": i % 2 === 0 }
                     )}
                   >
@@ -115,8 +115,8 @@ function RoadMap() {
             </div>
           </div>
           <div className="border-t-2 border-white/20 w-2/12"></div>
-          <div className="absolute left-0 translate-y-1/2 border-l-2 border-white/20 h-56 md:h-96 grid place-items-center">
-            <div className="-translate-x-1/2 bg-[#050E17] py-4 md:py-10">
+          <div className="absolute left-0 translate-y-1/2 border-l-2 border-white/20 h-56 lg:h-96 grid place-items-center">
+            <div className="-translate-x-1/2 bg-[#050E17] py-4 lg:py-10">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -137,7 +137,7 @@ function RoadMap() {
           </div>
         </div>
 
-        <div className="flex items-center relative h-56 md:mt-40">
+        <div className="flex items-center relative h-56 lg:mt-40">
           <div className="border-t-2 border-white/20 w-1/12"></div>
           <div className="border-t-2 border-dashed border-white/20 w-10/12 relative">
             <div className="absolute flex justify-between w-full -translate-y-1/2 h-56 items-center">
@@ -151,7 +151,7 @@ function RoadMap() {
                   </div>
                   <span
                     className={classNames(
-                      "text-white/50 my-2 w-40 absolute -translate-x-1/2 hidden md:block",
+                      "text-white/50 my-2 w-40 absolute -translate-x-1/2 hidden lg:block",
                       { "-translate-y-32": i % 2 === 0 }
                     )}
                   >

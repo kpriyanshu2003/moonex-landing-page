@@ -3,23 +3,23 @@ import GradientCircle from "../../assets/gradient-blur.svg";
 
 function HeroSection() {
   return (
-    <div className="h-dvh relative pt-72 md:pt-0 md:mt-56">
+    <div className="h-dvh relative pt-72 lg:pt-0 lg:mt-56">
       <img
         src={GradientCircle}
-        className="opacity-10 absolute -z-10 -top-1/2 translate-y-10 -left-72 hidden md:block"
+        className="opacity-10 absolute -z-10 -top-1/2 translate-y-10 -left-72 hidden lg:block"
       />
       <img
         src={GradientCircle}
-        className="opacity-10 absolute -z-10 bottom-0 md:-translate-x-80 -right-1/2"
+        className="opacity-10 absolute -z-10 bottom-0 lg:-translate-x-80 -right-1/2"
       />
-      <div className="w-7/12 absolute md:top-48 left-10 md:left-32">
+      <div className="w-7/12 absolute lg:top-48 left-10 lg:left-32">
         <div className="font-fira">
-          <span className="font-extrabold text-3xl md:text-7xl">
+          <span className="font-extrabold text-3xl lg:text-7xl">
             Trusted Multi-Chain <span className="text-primary">DEX</span>{" "}
             Platform
           </span>
           <br />
-          <span className="text-[#9E9E9E] md:text-2xl">
+          <span className="text-[#9E9E9E] lg:text-2xl">
             Trade, earn, and own crypto on the all-in-one multi-chain DEX
           </span>
         </div>
